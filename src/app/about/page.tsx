@@ -16,7 +16,7 @@ export default function AboutPage() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-[#800000] text-white">
+    <div className="min-h-screen bg-[#a92a4a] text-white">
       <Header isScrolled={isScrolled} />
 
       {/* About Me Content */}

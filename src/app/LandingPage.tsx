@@ -88,8 +88,12 @@ export default function LandingPage() {
       <main className={`flex-1 pt-16 transition-all duration-300 ${openVideo ? 'blur-md' : ''}`}>
         {/* Main Title */}
         <div className="flex flex-col items-center justify-center min-h-[calc(100vh-4rem)] pt-8 pb-4">
-          <h1 className="text-5xl md:text-6xl font-bold text-[#f7e7c1] text-center leading-tight">
-            I&apos;m <Typewriter words={['Art Director', 'Architect', 'Graphic Designer']} loop={0} />
+          <h1 className="text-5xl md:text-6xl font-bold text-[#f7e7c1] text-center leading-tight" aria-hidden="true">
+            I&apos;m an <Typewriter
+                      words={[' Art Director', ' Architect', ' Graphic Designer']}
+                      loop={5000}>
+                        
+                      </Typewriter>
           </h1>
           <p className="mt-4 text-xl text-[#e6bfc7] text-center">Scroll down to see my work!</p>
         </div>
