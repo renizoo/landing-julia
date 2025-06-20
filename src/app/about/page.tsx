@@ -52,6 +52,9 @@ export default function AboutPage() {
                         </h3>
                     </div>
                 </div>
+                <div className="text-center mt-20 text-gray-400 text-sm">
+                    <a target="_blank" href="https://youtu.be/WlatHB9jZ1g?si=QbSmWH0lpZe81v1g">Made for Julia with ❤️</a>
+                </div>
             </div>
         </section>
       </main>
