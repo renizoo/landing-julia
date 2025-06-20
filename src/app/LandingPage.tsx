@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
+import { Typewriter } from 'react-simple-typewriter';
 
 const thumbnails = [
   {
@@ -88,7 +89,7 @@ export default function LandingPage() {
         {/* Main Title */}
         <div className="flex flex-col items-center justify-center min-h-[calc(100vh-4rem)] pt-8 pb-4">
           <h1 className="text-5xl md:text-6xl font-bold text-[#f7e7c1] text-center leading-tight">
-            I&apos;m Art Director, Architect & Graphic Designer.
+            I&apos;m <Typewriter words={['Art Director', 'Architect', 'Graphic Designer']} loop={0} />
           </h1>
           <p className="mt-4 text-xl text-[#e6bfc7] text-center">Scroll down to see my work!</p>
         </div>

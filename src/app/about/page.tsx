@@ -42,12 +42,7 @@ export default function AboutPage() {
                         <h3 className="text-3xl md:text-4xl font-bold text-white break-all">
                             <Typewriter
                                 words={['Julia Rocha']}
-                                loop={0}
-                                cursor
                                 cursorStyle='‎'
-                                typeSpeed={90}
-                                deleteSpeed={50}
-                                delaySpeed={1500}
                             />
                         </h3>
                     </div>
